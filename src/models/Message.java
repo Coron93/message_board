@@ -61,24 +61,28 @@ public class Message {
         return content;
     }
 
-    public void setContnt(String content) {
+    public void setContent(String content) {
         this.content = content;
     }
 
-    public Timestamp getUpdate_at() {
+    public Timestamp getUpdated_at() {
         return update_at;
     }
 
-    public void getUpdate_at(Timestamp update_at) {
+    public void getUpdated_at(Timestamp update_at) {
         this.update_at = update_at;
     }
 
-    public Timestamp getCreate_at() {
+    public Timestamp getCreated_at() {
         return create_at;
     }
 
-    public void setCreate_at(Timestamp create_at) {
+    public void setCreated_at(Timestamp create_at) {
         this.create_at = create_at;
+    }
+
+    public void setUpdated_at(Timestamp update_at) {
+        this.update_at=update_at;
     }
 
 }
